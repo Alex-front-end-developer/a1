@@ -1,0 +1,1 @@
+sass --watch --no-stop-on-error -s compressed --embed-source-map scss:css

@@ -1,0 +1,755 @@
+@import "_all-page.scss";
+$osn-col: #353a54;
+
+.thanks {
+  overflow: hidden;
+}
+
+header {
+  padding-top: $a66;
+  margin-bottom: $a165;
+  .container {
+    background: #f6f6f6;
+    background: url(../img/thanks/header/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: $a52;
+    .aim {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: center;
+      -ms-align-items: center;
+      align-items: center;
+      z-index: 0;
+      .img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        width: 40%;
+        height: 40%;
+        opacity: .3;
+        img {
+          width: 101%;
+          height: 101%;
+        }
+        .rectangle {
+          width: $a397;
+          height: $a14;
+          background: #dfdfdf;
+          position: absolute;
+        }
+        .rectangle2 {
+          height: $a397;
+          width: $a14;
+          background: #dfdfdf;
+          position: absolute;
+        }
+      }
+      .rec-top {
+        bottom: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-bottom {
+        top: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-left {
+        right: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .rec-right {
+        left: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .circle {
+        border-width: $a2;
+        border-color: #dfdfdf;
+        border-style: solid;
+        border-radius: 50%;
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        opacity: 0.3;
+      }
+      .circle2 {
+        border-width: $a4;
+        border-color: #dfdfdf;
+        border-style: solid;
+        border-radius: 50%;
+        width: $a931;
+        height: $a931;
+        opacity: 0.3;
+      }
+    }
+    .logo {
+      padding-left: $a56;
+      width: $a204;
+    }
+    .width2 {
+      padding-top: $a120;
+      background: #f6f6f6;
+      position: relative;
+      z-index: 1;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      flex-direction: column;
+      padding-bottom: $a50;
+      box-shadow: 0px 12px 21px 0px rgba(73, 73, 84, 0.18);
+      bottom: -$a63;
+      .man {
+        position: absolute;
+        bottom: 0;
+        left: -$a16;
+        width: $a464;
+      }
+      .text {
+        padding-left: $a480;
+        padding-right: $a45;
+        p {
+          font-size: $a18;
+          line-height: $a26;
+          padding-bottom: $a38;
+          font-family: 'OpenSans-Regular';
+          white-space: pre-line;
+          span {
+            font-family: 'OpenSans-SemiBold';
+          }
+        }
+        .title {
+          font-weight: 700;
+          font-family: 'Oswald';
+          font-size: $a36;
+          letter-spacing: 0.02em;
+          padding-bottom: $a50;
+          text-transform: uppercase;
+        }
+      }
+      .plash {
+        margin-top: $a30;
+        height: $a100;
+        width: $a766;
+        background: url(../img/thanks/header/plash-bg.png);
+        background-size: 100% 100%;
+        align-self: flex-end;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        margin-right: $a50;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: $a70;
+        .name {
+          font-family: 'OpenSans-Bold';
+          letter-spacing: 0.04em;
+          font-size: $a18;
+          text-transform: uppercase;
+          padding-bottom: $a18;
+        }
+        .position {
+          font-family: 'OpenSans-Regular';
+          font-size: $a17;
+          span {
+            font-family: 'OpenSans-ExtraBold';
+          }
+        }
+      }
+    }
+    .thanks2 {
+      margin-top: -$a142;
+      padding-top: $a80;
+      .man {
+        width: $a444;
+        left: -$a10;
+      }
+      .text {
+        padding-left: $a480;
+      }
+      .plash {
+        margin-top: 0;
+        margin-bottom: $a60;
+        width: $a900;
+        padding-left: $a220;
+      }
+    }
+  }
+  .button {
+    margin: 0 auto;
+    margin-top: $a120;
+  }
+}
+
+main {
+  .pdf {
+    position: relative;
+    z-index: 1;
+    padding-bottom: $a100;
+    .bg {
+      position: absolute;
+      top: $a74;
+      width: 100%;
+    }
+    .width2 {
+      position: relative;
+      z-index: 1;
+      .title {
+        padding-bottom: $a40;
+        font-size: $a35;
+        line-height: $a50;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        letter-spacing: 0.04em;
+        text-align: center;
+        span {
+          font-weight: 700;
+        }
+      }
+      .ten {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        -ms-align-items: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: $a20;
+        .white {
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0px $a2 $a4 0px rgba(73, 73, 84, 0.18);
+          width: $a781;
+          height: $a439;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .img {
+          position: relative;
+          z-index: 1;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: flex;
+          justify-content: center;
+          -ms-align-items: center;
+          align-items: center;
+          background-color: rgb(250, 250, 250);
+          box-shadow: 0px $a2 $a4 0px rgba(73, 73, 84, 0.18);
+          width: $a574;
+          height: $a508;
+          img {
+            width: $a482;
+          }
+        }
+      }
+      .plash {
+        width: $a781;
+        height: $a119;
+        background: url(../img/thanks/pdf/plash.png);
+        background-size: 100% 100%;
+        font-family: 'OpenSans-Bold';
+        font-size: $a18;
+        line-height: $a32;
+        letter-spacing: 0.08em;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        -ms-align-items: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: pre-line;
+        color: #fff;
+        margin: 0 auto;
+      }
+    }
+  }
+  .security {
+    padding-top: $a180;
+    position: relative;
+    padding-bottom: $a172;
+    .aim {
+      position: absolute;
+      top: -$a120;
+      left: -$a216;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: center;
+      -ms-align-items: center;
+      align-items: center;
+      z-index: 0;
+      img {
+        width: $a448;
+        height: $a448;
+      }
+      .rectangle {
+        width: 24.6875vw;
+        height: 0.8333333333333333vw;
+        background: #dfdfdf;
+        position: absolute;
+        z-index: 1;
+      }
+      .rectangle2 {
+        height: 24.6875vw;
+        width: 0.8333333333333333vw;
+        right: 0.8333333333333333vw;
+        background: #dfdfdf;
+        position: absolute;
+        z-index: 1;
+      }
+      .rec-top {
+        bottom: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-bottom {
+        top: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-left {
+        right: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .rec-right {
+        left: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .circle {
+        border-width: 0.1041666666666667vw;
+        border-color: rgb(30, 30, 30);
+        border-style: solid;
+        border-radius: 50%;
+        opacity: 0.051;
+        width: 41.66666666666667vw;
+        height: 41.66666666666667vw;
+        position: absolute;
+      }
+      .circle2 {
+        border-width: 0.2083333333333333vw;
+        border-color: rgb(30, 30, 30);
+        border-style: solid;
+        border-radius: 50%;
+        opacity: 0.051;
+        position: absolute;
+        width: 57.60416666666667vw;
+        height: 57.60416666666667vw;
+      }
+    }
+    .aim2 {
+      position: absolute;
+      top: $a550;
+      right: $a340;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: center;
+      -ms-align-items: center;
+      align-items: center;
+      z-index: 0;
+      img {
+        width: $a133;
+        height: $a133;
+      }
+      .rectangle {
+        width: $a141;
+        height: $a5;
+        background: #eff0f5;
+        position: absolute;
+        z-index: 1;
+        opacity: .5;
+      }
+      .rectangle2 {
+        height: $a141;
+        width: $a5;
+        background: #eff0f5;
+        position: absolute;
+        z-index: 1;
+        opacity: .5;
+      }
+      .rec-top {
+        bottom: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-bottom {
+        top: 100%;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      .rec-left {
+        right: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .rec-right {
+        left: 100%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      .circle {
+        border-width: 0.1041666666666667vw;
+        border-color: #eff0f5;
+        border-style: solid;
+        border-radius: 50%;
+        opacity: 0.051;
+        width: $a240;
+        height: $a240;
+        position: absolute;
+        opacity: .5;
+      }
+      .circle2 {
+        border-width: 0.2083333333333333vw;
+        border-color: #eff0f5;
+        border-style: solid;
+        border-radius: 50%;
+        opacity: 0.051;
+        position: absolute;
+        width: $a332;
+        height: $a332;
+        opacity: .5;
+      }
+    }
+    .width2 {
+      h2 {
+        white-space: pre-line;
+        text-align: center;
+        margin-bottom: $a85;
+      }
+      .text {
+        font-family: 'OpenSans-Regular';
+        font-size: $a20;
+        line-height: $a28;
+        padding-bottom: $a50;
+        white-space: pre-line;
+        text-align: center;
+        span {
+          font-family: 'OpenSans-Bold';
+        }
+      }
+      .button {
+        margin-top: $a25;
+        margin: 0 auto;
+        width: $a423;
+      }
+    }
+  }
+  .unique {
+    padding-bottom: $a184;
+    .container {
+      background: url(../img/thanks/unique/bg.png);
+      background-size: 100% 100%;
+      position: relative;
+      padding-bottom: $a52;
+      .width2 {
+        padding-top: $a80;
+        color: #fff;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        .left {
+          h2 {
+            padding-bottom: $a60;
+          }
+          .plash {
+            height: $a115;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            -ms-align-items: center;
+            align-items: center;
+            padding-bottom: $a56;
+            .plash-bg {
+              position: absolute;
+              left: 0;
+              width: $a1044;
+            }
+            .text-upp {
+              font-family: 'OpenSans-SemiBold';
+              font-size: $a20;
+              line-height: $a30;
+              text-transform: uppercase;
+              letter-spacing: 0.02em;
+              white-space: pre-line;
+              position: relative;
+            }
+          }
+          .text {
+            font-family: 'OpenSans-Regular';
+            font-size: $a20;
+            line-height: $a28;
+            padding-bottom: $a44;
+            white-space: pre-line;
+          }
+        }
+        .img {
+          width: $a574;
+          filter: 0px 23px 37px 0px rgba(27, 28, 27, 0.28);
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: $a320;
+        }
+      }
+    }
+  }
+  .sale {
+    padding-bottom: $a135;
+    .width2 {
+      .old-price {
+        text-decoration: line-through;
+        color: #5b5c60;
+        font-family: 'OpenSans-SemiBold';
+        font-size: $a22;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: $a25;
+      }
+      h2 {
+        text-align: center;
+        padding-bottom: $a60;
+      }
+      .text {
+        font-size: $a36;
+        line-height: $a50;
+        letter-spacing: 0.04em;
+        white-space: pre-line;
+        text-align: center;
+        padding-bottom: $a60;
+      }
+      form {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        -ms-align-items: center;
+        align-items: center;
+        input {
+          border-width: 1px;
+          border-color: rgb(208, 208, 208);
+          border-style: solid;
+          border-radius: $a3;
+          background-color: rgb(255, 255, 255);
+          width: $a460;
+          height: $a61;
+          margin-bottom: $a23;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding-left: $a32;
+          font-family: 'OpenSans-Regular';
+          font-size: $a16;
+          letter-spacing: 0.04em;
+        }
+        .button {
+          width: $a456;
+          box-shadow: 0px $a14 $a24 0px rgba(27, 28, 27, 0.23);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .thanks {
+    overflow: visible;
+  }
+  header .container {
+    padding: $m20 $m10;
+    .logo {
+      width: $m80;
+      padding-left: 0;
+      padding-bottom: $m40;
+    }
+    .width2 {
+      bottom: 0;
+      img {
+        display: none;
+      }
+    }
+  }
+  header .container .width2 .text {
+    padding-left: 0;
+    p {
+      line-height: inherit;
+      font-size: $m12;
+      white-space: normal;
+      padding-left: $m10;
+      padding-right: $m10;
+    }
+    .title {
+      text-align: center;
+      font-size: $m26;
+    }
+  }
+  header .container .width2 .plash {
+    display: none;
+  }
+  main .pdf .width2 .title {
+    font-size: $m14;
+    line-height: inherit;
+  }
+  main .pdf .width2 .ten {
+    .white {
+      width: 100%;
+      height: 80%;
+    }
+    .img {
+      width: 90%;
+      height: auto;
+      padding: $m20 0;
+      img {
+        width: $m200;
+      }
+    }
+  }
+  main .pdf .width2 .plash {
+    margin-top: $m20;
+    font-size: $m12;
+    line-height: inherit;
+    width: auto;
+    height: auto;
+    white-space: normal;
+    padding: $m10 0;
+  }
+  main .security .width2 .text {
+    font-size: $m14;
+    line-height: inherit;
+    white-space: normal;
+    text-align: left;
+  }
+  main .security .width2 .button {
+    margin-top: $m20;
+  }
+  main .unique .container {
+    .width2 {
+      img {
+        display: none;
+      }
+      .left {
+        .plash {
+          padding-bottom: $m10;
+          height: auto;
+          .text-upp {
+            font-size: $m10;
+            line-height: inherit;
+            white-space: normal;
+            text-align: center;
+          }
+        }
+        .text {
+          font-size: $m10;
+          line-height: inherit;
+          white-space: normal;
+        }
+      }
+    }
+  }
+  main .sale .width2 .old-price {
+    font-size: $m10;
+  }
+  main .sale .width2 .text {
+    font-size: $m12;
+    line-height: inherit;
+    padding-bottom: $m10;
+  }
+  main .sale .width2 form input {
+    width: 60%;
+    height: $m30;
+    font-size: $m14;
+    padding-left: $m10;
+  }
+  main .sale .width2 form .button {
+    margin-top: $m20;
+  }
+  main .sale .width2 h2 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+}
